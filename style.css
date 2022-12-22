@@ -1,3 +1,174 @@
-body {
-    background: blue;
-}
+header {
+    position: fixed;
+    top: 0px;
+    left: 700px;
+  }
+  #header-img {
+    width: auto;
+    height: 50px;
+    border: none;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+    left: 10%;
+  }
+  
+  #title {
+    position: absolute;
+    dispaly: block;
+    width: auto;
+    top: 2%;
+    left: 28%;
+  }
+  #description {
+    text-align: center;
+    position: relative;
+    top: 70px;
+  }
+  
+  #nav-bar {
+    text-align: center;
+  }
+  
+  #link1 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 170px;
+  }
+  
+  #link2 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 160px;
+  }
+  
+  #link3 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 120px;
+    
+  }
+  
+  #link4 {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 130px;
+  }
+  
+  #video {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 15px;
+  }
+  
+  #title-desc1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 120px;
+  }
+  
+  #title-desc2 {
+    text-align: center;
+    position: relative;
+    top: -48px;
+    right: 90px;
+  }
+  
+  #info1 {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 35px;
+  }
+  
+  #info2 {
+    width: 520px;
+    position: relative;
+    top: -60px;
+    left: 614px;
+  }
+  
+  #fire-logo {
+    width: 60px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 100px;
+    right: 250px;
+  }
+  
+  #shipping-logo {
+    width: 75px;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 35px;
+    right: 250px;
+  }
+  
+  .product {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    float: left;
+    left: 250px;
+  }
+  
+  .title-name{
+    margin: 5px;
+  }
+  
+  .price {
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+  
+  #select {
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  
+  #select:hover {
+    background-color: darkgrey;
+    transition: background-color 1s;
+  }
+  #select:active {
+    background-color: grey;
+  }
+  
+  #form {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 620px;
+    right: 500px;
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      flex-wrap: wrap;
+    }
+  }

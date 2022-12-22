@@ -2,10 +2,63 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+    <h1 id="title">The Smithy</h1>
+    <img id="header-img"
+        src="https://www.kindpng.com/picc/m/81-817808_blacksmith-logo-computer-icons-hephaestus-blacksmith-icon-hd.png"
+        alt="black smith logo" />
+    <p id="description">Handcrafted, Top Quality Masterpiece</p>
+    <nav id="nav-bar">
+        <a id="link1" class="nav-link" href="#about-product">Product Info</a>
+        <a id="link2" class="nav-link" href="#shop">Shop Now</a>
+        <a id="link3" class="nav-link" href="#social">Follow Us</a>
+        <a id="link4" class="nav-link" href="#contact">Contact Us</a>
+    </nav>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div id="container">
+      <section id="about-product">
+          <img id="fire-logo"
+              src="https://shop.digitemb.com/wp-content/uploads/2019/06/V-21670-Pyro-Fire-Flame-Silhouette-SVG-Format-Vector-Art-thegem-blog-timeline-large.jpg"
+              alt="fire logo" />
+          <h2 id="title-desc1">Premium Quality</h2>
+          <p id="info1">Our blades are top quality material handcrafted and forged by professionals.</p>
+          <img id="shipping-logo" src="https://i.pinimg.com/736x/42/b0/b5/42b0b55f40a9f2c6d7fad1288f2048bc.jpg"
+              alt="sword with wings" />
+          <h2 id="title-desc2">Fast and Free Shipping</h2>
+          <p id="info2">We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+              returns if you are not satisfied.</p>
+          <iframe id="video" src="https://www.youtube.com/watch?v=FJfR-oLE76k&ab_channel=TheCrucible%2COakland"
+              frameborder="0" allowfullscreen>
+          </iframe>
+      </section>
+      <section id="shop">
+          <div class="product" id="sword">
+              <h3 class="title-name">Dragon Sword</h3>
+              <h4 class="price">$250</h4>
+              <img src="https://m.media-amazon.com/images/I/41Lzin52M5L._AC_SX425_.jpg" alt="dragon sword">
+              <li>FANTASY SWORD -33.5" OVERALL</li>
+              <li>DRAGON EVOLUTION SWORD</li>
+              <li>INCLUDES DISPLAY PLAQUE</li>
+              <button id="select">Select</button>
+          </div>
+          <div class="product" id="katana">
+              <h3 class="title-name">DragonFly Katana</h3>
+              <h4 class="price">$300</h4>
+              <img src="https://m.media-amazon.com/images/I/51owXougOuL._AC_SX425_.jpg" alt="dragon fly katana">
+              <li>Cold Steel</li>
+              <li>31.5 Inches</li>
+              <li>Wood,Steel,Iron</li>
+              <button id="select">Select</button>
+          </div>
+      </section>
+      <section id="social"></section>
+      <section id="contact">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <input id="email" type="email" name="email" placeholder="email" />
+              <input type="submit" id="submit" />
+          </form>
+      </section>
+  </div>
     <script src="script.js"></script>
   </body>
 </html>
