@@ -10,16 +10,16 @@ header {
     display: block;
     border-radius: 50%;
     position: absolute;
-    top: 19%;
-    left: 10%;
+    top: 3%;
+    left: 43%;
   }
   
   #title {
     position: absolute;
-    dispaly: block;
+    display: block;
     width: auto;
     top: 2%;
-    left: 28%;
+    left: 46%;
   }
   #description {
     text-align: center;
@@ -95,7 +95,7 @@ header {
     width: 520px;
     position: relative;
     top: -60px;
-    left: 614px;
+    left: 39%;
   }
   
   #fire-logo {
